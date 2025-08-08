@@ -1,6 +1,6 @@
 /* Logo image size adjustment */
 .logo-img {
-  height: 80px;
+  height: 100px;
   width: auto;
   display: inline-block;
   vertical-align: middle;
@@ -1806,6 +1806,15 @@ textarea {
 
 .bootstrap-datetimepicker-widget {
   color: #000 !important;
+}
+
+/* Make text white */
+.white-font {
+  color: #fff;
+}
+
+.contact-info-list {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
