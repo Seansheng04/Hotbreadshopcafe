@@ -1,3 +1,24 @@
+.restaurant-guru-award {
+  position: fixed;
+  top: 90px;
+  right: 28px;
+  z-index: 1200;
+}
+
+.restaurant-guru-award #rg26-b-rcircle {
+  display: block;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-guru-award {
+    top: 78px;
+    right: 12px;
+    transform: scale(0.82);
+    transform-origin: top right;
+  }
+}
+
 /* Logo image size adjustment */
 .logo-img {
   height: 100px;
