@@ -1,7 +1,8 @@
 .restaurant-guru-award {
   position: fixed;
-  top: 90px;
-  right: 28px;
+  top: 190px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1200;
 }
 
@@ -12,10 +13,9 @@
 
 @media screen and (max-width: 768px) {
   .restaurant-guru-award {
-    top: 78px;
-    right: 12px;
-    transform: scale(0.82);
-    transform-origin: top right;
+    top: 165px;
+    transform: translateX(-50%) scale(0.82);
+    transform-origin: center top;
   }
 }
 
