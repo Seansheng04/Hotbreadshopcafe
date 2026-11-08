@@ -1,22 +1,22 @@
 .restaurant-guru-award {
-  position: fixed !important;
-  top: 190px !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  z-index: 1200 !important;
+  position: relative;
+  margin: 18px auto 0;
+  width: max-content;
+  z-index: 3;
 }
 
 .restaurant-guru-award #rg26-b-rcircle {
-  display: block !important;
-  position: relative !important;
+  display: block;
+  position: relative;
+  margin: 0 auto;
   cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
   .restaurant-guru-award {
-    top: 165px !important;
-    transform: translateX(-50%) scale(0.82) !important;
-    transform-origin: center top !important;
+    margin-top: 12px;
+    transform: scale(0.82);
+    transform-origin: center top;
   }
 }
 
